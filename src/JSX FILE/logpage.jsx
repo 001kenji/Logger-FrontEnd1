@@ -348,11 +348,11 @@ export default function Logpage() {
                     }
                     <div>
                         <blockquote className=" mt-2 md:text-2xl flex flex-row gap-2">
-                            <span onClick={Slider} className={ ` transition-all duration-500 ${disp == 'login' ? 'text-green-500' : ''} italic font-serif cursor-not-allowed`}>Log-in</span>
+                            <span onClick={Slider} className={ ` transition-all duration-500 ${disp == 'login' ? 'text-green-500 cursor-not-allowed' : ''} italic font-serif cursor-pointer `}>Log-in</span>
                             <div className=" min-w-[60px] flex flex-row align-middle justify-start h-[20px] rounded-md bg-green-600">
-                                <span  onClick={Slider} className={` ${disp == 'login' ? 'translate-x-0' : 'translate-x-10'} transition-all duration-500 my-auto rounded-full p-2 h-1 min-w-3 bg-red-600 `}></span>
+                                <span  onClick={Slider} className={` ${disp == 'login' ? 'translate-x-0' : 'translate-x-10'} transition-all duration-500 my-auto rounded-full p-2 h-1 min-w-3 bg-red-600 cursor-pointer `}></span>
                             </div>
-                            <span onClick={Slider} className={ ` cursor-pointer transition-all duration-500 ${disp == 'signup' ? 'text-green-500' : ''} italic font-serif cursor-not-allowed`}>Sign-up</span>
+                            <span onClick={Slider} className={ ` cursor-pointer transition-all duration-500 ${disp == 'signup' ? 'text-green-500 cursor-not-allowed' : ''} italic font-serif cursor-pointer `}>Sign-up</span>
                         </blockquote>
                     </div>
                     
