@@ -97,7 +97,7 @@ export default function Logpage() {
                 }
             }
             
-            fetch('http://127.0.0.1:8000/user/write/',
+            fetch('https://loginbackendtest1.vercel.app/user/write/',
                         {method: 'POST',
                         headers:{
                             'Content-Type':'application/json'
@@ -155,7 +155,7 @@ export default function Logpage() {
             
             console.log('sending ....')
             ShowLoad('show')
-            fetch('http://127.0.0.1:8000/user/write/',
+            fetch('https://loginbackendtest1.vercel.app/user/write/',
                         {method: 'PUT',
                         headers:{
                             'Content-Type':'application/json'
